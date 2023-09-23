@@ -1,0 +1,73 @@
+{
+	"name": "themeset3",
+	"version": "0.1.0",
+	"displayName": "Theme set 3",
+	"homepage": "",
+	"description": "A themeset",
+	"publisher": "hackpro4005",
+	"license": "MIT",
+	"scripts": {
+	  "build": "node ./build.js",
+	  "lint": "node ./lint.js",
+	  "package": "vsce package -o ./bin/themeset3.vsix",
+	  "vscode:prepublish": "npm run build",
+	  "vsce-publish": "vsce publish"
+	},
+	"maintainers": [
+	  "hackpro4005"
+	],
+	"contributors": [
+	  "hackpro4005"
+	],
+	"repository": {
+	  "type": "vs",
+	  "url": ""
+	},
+	"bugs": {
+	  "url": "https://github.com/hackpro4005/themeset3/issues"
+	},
+	"engines": {
+	  "vscode": "^0.1.0"
+	},
+	"categories": [
+	  "Themes"
+	],
+	"keywords": [
+	  "themeset"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+	  "color": "#3c4557",
+	  "theme": "dark"
+	},
+	"contributes": {
+	  "themes": [
+		{
+		  "label": "nintendo switch",
+		  "uiTheme": "vs-dark",
+		  "path": "./theme/nswitch.json"
+		},
+		{
+		  "label": "dark green",
+		  "uiTheme": "vs-dark",
+		  "path": "./theme/darkgreen.json"
+		}
+	  ]
+	},
+	"devDependencies": {
+	  "js-yaml": "^4.1.0",
+	  "prettier": "^3.0.0",
+	  "tinycolor2": "^1.6.0",
+	  "vsce": "^2.15.0"
+	},
+	"__metadata": {
+	  "id": "puser7yyrrr4-ewff",
+	  "publisherDisplayName": "hackpro4005",
+	  "publisherId": "fbb3d024-f8f2-460c-bdb5-99552f6d8c4b",
+	  "targetPlatform": "undefined",
+	  "updated": false,
+	  "isPreReleaseVersion": false,
+	  "installedTimestamp": 1694971677755,
+	  "preRelease": false
+	}
+  }
