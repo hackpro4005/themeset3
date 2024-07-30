@@ -4,7 +4,7 @@
 	"displayName": "Theme set 3",
 	"homepage": "",
 	"description": "A themeset",
-	"publisher": "hackpro4005",
+	"publisher": "5v76377vw857bv46ew44c",
 	"license": "MIT",
 	"scripts": {
 	  "build": "node ./build.js",
@@ -14,10 +14,10 @@
 	  "vsce-publish": "vsce publish"
 	},
 	"maintainers": [
-	  "hackpro4005"
+	  "5v76377vw857bv46ew44c"
 	],
 	"contributors": [
-	  "hackpro4005"
+	  "5v76377vw857bv46ew44c"
 	],
 	"repository": {
 	  "type": "vs",
@@ -62,7 +62,7 @@
 	},
 	"__metadata": {
 	  "id": "puser7yyrrr4-ewff",
-	  "publisherDisplayName": "hackpro4005",
+	  "publisherDisplayName": "hackerprototype4005",
 	  "publisherId": "5v76377vw857bv46ew44c",
 	  "targetPlatform": "undefined",
 	  "updated": false,
