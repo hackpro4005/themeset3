@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2023" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2023">
 		<Metadata>
-			<Identity Language="en-US" Id="themeset3" Version="0.1.0" Publisher="hackpro4005" />
+			<Identity Language="en-US" Id="themeset3" Version="0.1.0" Publisher="5v76377vw857bv46ew44c" />
 			<DisplayName>theme set 1</DisplayName>
 			<Description xml:space="preserve">First theme set</Description>
 			<Tags>themeset,theme,__web_extension</Tags>
